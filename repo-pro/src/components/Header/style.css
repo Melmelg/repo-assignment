@@ -1,0 +1,50 @@
+/* header */
+
+header {
+    padding: 15px;
+    background: #8fc7bc;
+  }
+
+.title{
+    text-align: left;
+    color: white;
+    font-size: 50px;
+
+}
+
+
+/* buttons */
+button {
+    background-color: #90df92; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555
+  }
+  
+.dark:hover {
+    background-color: #555555;
+    color: white;
+  }
+  
+.light {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid #e7e7e7;
+  }
+  
+.light:hover {
+    background-color: #e7e7e7;
+    color: black;
+  }
